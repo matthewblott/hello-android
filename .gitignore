@@ -10,10 +10,13 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 
+
 # Gradle
 .gradle
 local.properties
 /local.properties
+
+!app/lint.xml
 
 # Android
 kls_database.db
