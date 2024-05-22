@@ -1,4 +1,0 @@
-#Wed May 22 12:32:22 BST 2024
-base.0=/Users/Matt/Development/lab/foo/hello-android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
