@@ -1,6 +1,6 @@
 plugins {
-  alias(libs.plugins.android.application)
-  alias(libs.plugins.jetbrains.kotlin.android)
+  id("com.android.application") version "8.4.1"
+  id("org.jetbrains.kotlin.android") version "1.9.0"
 }
 
 android {
@@ -15,6 +15,6 @@ android {
 }
 
 dependencies {
-  implementation(libs.androidx.activity.compose)
-  implementation(libs.androidx.core.ktx)
+  implementation("androidx.activity:activity-compose:1.9.0")
+  implementation("androidx.core:core-ktx:1.13.1")
 }
