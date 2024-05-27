@@ -12,11 +12,6 @@ android {
   kotlinOptions {
     jvmTarget = "1.8"
   }
-  lint {
-    // Required to suppress 'Instantiation error':
-    // https://stackoverflow.com/questions/41635131/gradle-getting-the-root-project-directory-path-when-starting-with-a-custom-buil
-    lintConfig = file("$rootDir/lint.xml")
-  }
 }
 
 dependencies {
